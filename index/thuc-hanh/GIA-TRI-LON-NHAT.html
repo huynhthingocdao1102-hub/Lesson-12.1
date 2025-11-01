@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TÌM GIÁ TRỊ LỚN NHẤT</title>
+</head>
+<body>
+<script>
+    let num = [-3, 5, 1, 2, 3, 4, 10];
+    let max = 0;
+    for (let i = 0; i < num.length; i++) {
+        if (num[i] > max) {
+            max = num[i];
+            index = i;
+        }
+    }
+    alert("Giá trị lớn nhất: " + max + " ở vị trí " + index);
+</script>
+
+</body>
+</html>
